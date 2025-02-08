@@ -29,5 +29,5 @@ jobs:
         git pull origin "$BRANCH"
 
         echo "Starting/restarting application..."
-        pm2 restart app/server.js
+        sudo pm2 restart app/server.js
         '

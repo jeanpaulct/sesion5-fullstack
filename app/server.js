@@ -4,7 +4,7 @@ var app = express()
 var port = process.env.PORT || 8080  // establecemos nuestro puerto
 
 app.get('/', function(req, res) {
-  res.json({ mensaje: '¡Hola Mundo!' })   
+  res.json({ mensaje: '¡Hola Mundo desde Github Action!' })   
 })
 
 app.get('/galletas', function(req, res) {

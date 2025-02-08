@@ -34,5 +34,5 @@ jobs:
         git pull origin "$BRANCH"
 
         echo "Starting/restarting application..."
-        pm2 restart app/server.js
+        /home/ubuntu/.nvm/versions/node/v20.18.0/bin/pm2 restart app/server.js
         '
